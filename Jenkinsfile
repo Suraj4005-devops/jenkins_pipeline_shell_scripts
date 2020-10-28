@@ -6,7 +6,7 @@ node {
    		git url: 'https://github.com/TTFHW/jenkins_pipeline_shell_scripts.git'
    	stage 'Build'
    		sh './myBuild.sh'
-   	//stage 'Deploy'
-   		//sh './myDeployment.sh'
+   	stage 'Deploy'
+   		sh './myDeployment.sh'
   
 }
